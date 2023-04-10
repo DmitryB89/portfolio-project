@@ -1,0 +1,53 @@
+//.heroSection {
+//  height: 100vh;
+//  display: flex;
+//  flex-direction: column;
+//  position: inherit;
+//  margin: 0 auto;
+//  text-align: left;
+//
+//}
+.heroContainer {
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+
+
+.heroImg {
+  width: 50%;
+
+  position: absolute;
+  left: 3%;
+  bottom: 0;
+}
+
+article {
+  font-size: 1.2rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+  padding: 3rem;
+}
+
+
+.heroBtn {
+  max-width: 40%;
+  margin-top: 1em;
+
+
+}
+
+.btnText {
+  position: relative;
+  font-size: 1.2rem;
+  transition: color 0.3s linear;
+  z-index: 10;
+}
+
+.heroText {
+  font-size: 1.3rem;
+}

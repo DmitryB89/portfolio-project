@@ -1,0 +1,42 @@
+
+.projectsSection {
+  //background-color: black;
+  background-image: url("https://skincareclinicsuk.com/wp-content/uploads/2021/03/Shutter-Stock-Wavey-Lines-Converted-1024x640.jpg");
+  //background-size: no-repeat;
+  background-position: left;
+  background-size: cover;
+  //background-attachment: scroll
+}
+
+.filtersContainer {
+  display: flex;
+  flex-direction: row;
+  //background-color: crimson;
+  align-items: baseline;
+  margin: 0 auto;
+  max-width: 70%;
+
+}
+
+.projectsContainer {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.filterBtns {
+  width: 100%;
+  display: flex;
+  //background-color: aqua;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.filterBtn {
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.filterBtn:hover {
+  color: #7b2bfd;
+
+}

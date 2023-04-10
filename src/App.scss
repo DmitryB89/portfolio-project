@@ -1,0 +1,195 @@
+/* ======= GLOBAL STYLES ======= */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$color-primary: black;
+main {
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+body {
+
+
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  padding: 2em 0;
+  margin-bottom: 3em;
+}
+
+
+section {
+  width: 100%;
+  //background-color: #7b2bfd;
+  height: 100vh;
+}
+
+
+
+span:hover {
+
+}
+
+/* ===========================================inputs=========================================== */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background: -webkit-linear-gradient(
+                  top,
+                  rgba(255, 255, 255, 0) 0%,
+                  rgba(0, 174, 255, 0.04) 50%,
+                  rgba(255, 255, 255, 0) 51%,
+                  rgba(0, 174, 255, 0.03) 100%
+  );
+  border: 0;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+
+  transition: background-color 5000s ease-in-out 0s;
+
+  -webkit-text-fill-color: var(--color-primary);
+}
+
+input[type='search'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
+
+
+/* ===========================================button=========================================== */
+
+button {
+  font-family: "Gotham Pro", sans-serif;
+  color: white;
+  border-radius: 1.5em;
+  border: none;
+  background: $color-primary;
+  position: relative;
+  padding: .5em 1.5em;
+  outline: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #7b2bfd;
+  clip-path: circle(0 at center top);
+  transition: 0.3s linear;
+  z-index: 1;
+}
+
+button:hover::before {
+  clip-path: circle(100%);
+}
+
+
+/* ===========================================TYPOGRAPHY=========================================== */
+
+body {
+  font-family: "Gotham Pro", sans-serif;
+  color: black;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
+
+span, a {
+  font-size: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7b2bfd;
+
+}
+
+
+
+
+h1, h2, h3 {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1 {
+  font-size: 14rem;
+  font-weight: 600;
+  line-height: 14rem;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  padding-top:4rem ;
+  width: 35%;
+  font-size: 4rem;
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  //background-color: red;
+
+
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: gray;
+  padding-bottom: 0.5rem;
+}
+

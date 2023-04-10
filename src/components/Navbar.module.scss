@@ -1,0 +1,49 @@
+/* navigation */
+
+.navContainer {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav {
+  width: 65%;
+
+
+  li {
+    margin-left: 2em;
+  }
+}
+
+.navLogo {
+  width: 15%;
+}
+
+.navButtons {
+  width: 30%;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 1em;
+    width: 30px;
+  }
+}
+
+.btnText {
+  position: relative;
+  font-size: 1.2rem;
+  transition: color 0.3s linear;
+  z-index: 10;
+}
+
+.github {
+cursor: pointer;
+}
+.github:hover {
+  filter: invert(18%) sepia(95%) saturate(5096%) hue-rotate(261deg) brightness(103%) contrast(98%);
+
+}
